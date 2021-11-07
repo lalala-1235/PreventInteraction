@@ -1,0 +1,23 @@
+name: PreventInteraction
+main: main.Main
+version: 0.0.1
+
+api-version: 1.17
+
+permissions:
+  PreventInteraction.enterblocked:
+    description: Permission to enter blocked locations!
+    default: false
+
+commands:
+  prevent:
+    description: Prevent selected area from being interected!
+    usage: /prevent
+
+  create:
+    description: Creates an npc player
+    usage: /create
+
+  test:
+    description: test
+    usage: /test
